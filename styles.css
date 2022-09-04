@@ -3,5 +3,24 @@ body {
 }
 
 div {
+    display: flex;
     border: 2px solid red;
+    flex: 1;
+}
+
+.img_side {
+    justify-content: center;
+}
+
+@font-face {
+    font-family: rubik-maze-font;
+    src: url(/home/bobby/the-odin-project/sign-up-form/Rubik_Maze/RubikMaze-Regular.ttf);
+}
+
+h2 {
+    font-family: rubik-maze-font
+}
+
+.signup_side {
+        flex-direction: column;
 }
