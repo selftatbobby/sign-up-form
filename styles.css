@@ -1,3 +1,8 @@
+@font-face {
+    font-family: rubik-maze-font;
+    src: url(/home/bobby/the-odin-project/sign-up-form/Rubik_Maze/RubikMaze-Regular.ttf);
+}
+
 body {
     display: flex;
 }
@@ -12,9 +17,9 @@ div {
     justify-content: center;
 }
 
-@font-face {
-    font-family: rubik-maze-font;
-    src: url(/home/bobby/the-odin-project/sign-up-form/Rubik_Maze/RubikMaze-Regular.ttf);
+img {
+    width: 100%;
+    height: 100%;
 }
 
 h2 {
