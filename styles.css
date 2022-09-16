@@ -9,7 +9,6 @@ body {
 
 div {
     display: flex;
-    border: 2px solid red;
     flex: 1;
 }
 
@@ -18,7 +17,7 @@ div {
     justify-content: center;
 }
 
-h2, h1{
+h2 {
     font-family: rubik-maze-font
 }
 
@@ -36,6 +35,19 @@ h2, h1{
     background-color: rgba(0,0,0,0.5);
 }
 
-fieldset div {
+fieldset {
+    display: grid;
+    grid-template-row: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.signup_side_top {
+    flex-direction: column;
+}
+.signup_side_mid {
+    align-items: center;
+}
+
+.signup_side_bot {
     flex-direction: column;
 }
