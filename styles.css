@@ -39,7 +39,14 @@ fieldset {
     display: grid;
     grid-template-row: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
 }
+
+fieldset > div {
+    justify-content: space-between;
+}
+
 
 .signup_side_top {
     flex-direction: column;
@@ -50,4 +57,20 @@ fieldset {
 
 .signup_side_bot {
     flex-direction: column;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+}
+
+.default {
+    border-color: #E5E7EB;
+    border-width: 4px;
+}
+
+.default:focus {
+    border-color: blue;
+    box-shadow: 4px 3px;
+
 }
