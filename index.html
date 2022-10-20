@@ -4,6 +4,7 @@
     <meta charset='UTF-8'>
     <title>Signup Form for Online Service</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>  
 </head>
 <body>
     <div class="img_side">
@@ -19,41 +20,41 @@
             <h3>Hurry. The. F*ck. Up.</h3>
         </div>
         <div class="signup_side_mid">
-            <form action= "bobby.com" method="post">
+            <form name="myForm" action= "formdata.html" onsubmit="return(validateForm());" method="post">
                 <fieldset>
                     <legend>Let's do this!</legend>
                     <div>
                         <label for="first_name">First Name</label>
-                        <input id="text_input" class="default invalid" type="text">
+                        <input name="fname" id="text_input" class="default invalid" type="text">
                     </div>
                     <div>
                         <label for="last_name">Last Name</label>
-                        <input id="text_input" class="default invalid" type="text">
+                        <input name="lname" id="text_input" class="default invalid" type="text">
                     </div>
                     
                     <div>
                         <label for="email">Email</label>
-                        <input id="email_input" class="default invalid" type="email">
+                        <input name="email" id="email_input" class="default invalid" type="email">
                     </div>
                     <div>
                         <label for="phone_number">Phone Number</label>
-                        <input id="text_input" class="default invalid" type="text">
+                        <input name="phone" id="text_input" class="default invalid" type="text">
                     </div>
                     <div>
                         <label for="passsword">Password</label>
-                        <input id="password_input" class="default invalid" type="password">
+                        <input name="password" id="password_input" class="default invalid" type="password">
                     </div>
                     <div>
                         <label for="confirm_password">Confirm Password</label>
-                        <input id="password_input" class="default invalid" type="password">
+                        <input name="cpassword" id="password_input" class="default invalid" type="password">
                     </div>
                 </fieldset>
+                <input type="submit" value="Create Account">
             </form>
         </div>
         <div class="signup_side_bot">
-            <button type="button">Create Account</button>
             <h2>Already have an account?<a href="https://www.google.com/">Log in!</a></h2>
         </div>
-    </div>
+    </div>    
 </body>
 </html>

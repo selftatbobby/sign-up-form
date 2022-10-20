@@ -10,6 +10,6 @@ Next Steps for project completion:
     -use JS to make form responsive and active
         <!-- -create selected input variation (ie blue border and box shadow) -->
         -create valid and invalid class for inputs (ie green and red)
-        -create error class for password
-        -create account button checks form and submits it
-        -onclick: all good = submit form message, else = error message + toggle invalid class
+        -create error class for password/make sure passwords match
+        <!-- -create account button checks form completion -->
+            -onclick: all good = submit form message, else = error message + toggle invalid class
