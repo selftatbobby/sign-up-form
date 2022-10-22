@@ -12,4 +12,4 @@ Next Steps for project completion:
         <!-- -create valid and invalid class for inputs (ie green and red) -->
         <!-- -create error class for password/make sure passwords match -->
         <!-- -create account button checks form completion -->
-            -onclick: all good = submit form message, else = error message + toggle invalid class
+            <!-- -onclick: all good = submit form message, else = error message + toggle invalid class -->
